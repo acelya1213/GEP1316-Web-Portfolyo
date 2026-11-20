@@ -2,8 +2,15 @@
 
 Dört sayfalı, responsive HTML/CSS/JavaScript portfolyosu.
 
-## Canlı site
-**GitHub Pages adresi: [YAYINLADIKTAN SONRA BURAYA EKLEYİN]**
+
+## Canlı Web Sitesi
+
+GitHub Pages adresi:
+https://acelya1213.github.io/GEP1316-Web-Portfolyo/
+
+## GitHub Proje Deposu
+
+https://github.com/acelya1213/GEP1316-Web-Portfolyo
 
 ## Kurulum
 `index.html` dosyasını tarayıcıda açın. GitHub'da yeni bir public repo oluşturup tüm site dosyalarını kök dizine yükleyin. Settings → Pages → Deploy from a branch → main / (root) → Save. Çıkan adresi buraya ve rapora yazın.
