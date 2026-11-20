@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Açelya Çayırcı, eczacılık ve dijital okuryazarlık portfolyosu">
+  <meta name="description" content="Açelya Çayırcı proje portfolyosu">
   <title>Projeler | Açelya Çayırcı</title>
   <link rel="stylesheet" href="style.css">
 </head>
@@ -13,9 +13,7 @@
 
   <header class="top">
     <a class="logo" href="index.html">AÇ<span>.</span></a>
-    <button id="menu" class="menu" aria-expanded="false" aria-controls="nav">
-      ☰ <span class="sr">Menüyü aç</span>
-    </button>
+    <button id="menu" class="menu" aria-expanded="false" aria-controls="nav">☰ <span class="sr">Menüyü aç</span></button>
     <nav id="nav" aria-label="Ana menü">
       <a href="index.html">Ana sayfa</a>
       <a href="hakkimda.html">Hakkımda</a>
@@ -29,17 +27,13 @@
     <section class="pagehead">
       <p class="eyebrow">PORTFOLYO</p>
       <h1>Üzerinde çalıştığım projeler.</h1>
-      <p class="lead">
-        GEP1316 dersinde geliştirdiğim becerilerden örnekler.
-        Python, Excel ve algoritma çalışmalarımı burada paylaşıyorum.
-      </p>
+      <p class="lead">GEP1316 dersinde geliştirdiğim yazılım, veri analizi ve algoritma becerilerimden örnekler.</p>
     </section>
 
     <section class="section">
       <div class="filters">
         <label for="search">Proje ara</label>
         <input id="search" type="search" placeholder="Proje adı veya açıklama">
-
         <label for="filter">Kategori</label>
         <select id="filter">
           <option value="all">Tümü</option>
@@ -52,97 +46,44 @@
       <p id="count" role="status" aria-live="polite"></p>
 
       <div class="cards projects">
-
-        <article class="card project" data-category="python"
-          data-search="python ilaç saati hatırlatıcısı ilaç kullanım saatleri uygulaması">
-          <div class="project-art" role="img" aria-label="Python projesi">
-            01<small>Python</small>
-          </div>
+        <article class="card project" data-category="python" data-search="python ilaç saati hatırlatıcısı">
+          <div class="project-art">01<small>Python</small></div>
           <h2>Python İlaç Saati Hatırlatıcısı</h2>
-          <p>
-            Python ile ilaç kullanım saatlerini takip etmeye
-            yönelik geliştirdiğim mini uygulama.
-          </p>
-          <p class="learn">
-            <strong>Ne öğrendim?</strong>
-            Koşullar, giriş kontrolü ve kullanıcı odaklı
-            uygulama geliştirme.
-          </p>
-          <a class="link"
-             href="https://github.com/acelya1213/GEP1316-Ilac-Hatirlatici"
-             target="_blank"
-             rel="noopener noreferrer">
-            Projeyi GitHub'da görüntüle ↗
-          </a>
+          <p>İlaç kullanım saatlerinin takip edilmesine yönelik Python mini uygulaması.</p>
+          <p class="learn"><strong>Ne öğrendim?</strong> Koşullar, kullanıcı girdileri ve program akışı.</p>
+          <a class="link" href="https://github.com/acelya1213/GEP1316-Ilac-Hatirlatici" target="_blank" rel="noopener noreferrer">GitHub'da incele ↗</a>
         </article>
 
-        <article class="card project" data-category="python"
-          data-search="küçük işletme kasa defteri gelir gider python">
-          <div class="project-art" role="img" aria-label="Python kasa defteri projesi">
-            02<small>Python</small>
-          </div>
+        <article class="card project" data-category="python" data-search="küçük işletme kasa defteri">
+          <div class="project-art">02<small>Python</small></div>
           <h2>Küçük İşletme Kasa Defteri</h2>
-          <p>
-            Günlük gelir ve giderlerin kaydedilmesine
-            yönelik Python uygulaması.
-          </p>
-          <p class="learn">
-            <strong>Ne öğrendim?</strong>
-            Değişkenler, hesaplama işlemleri ve günlük
-            finansal özet oluşturma.
-          </p>
-          <span class="link">Proje bağlantısı yakında eklenecek</span>
+          <p>Günlük gelir ve giderlerin kaydedilmesine yönelik Python uygulaması.</p>
+          <p class="learn"><strong>Ne öğrendim?</strong> Değişkenler, hesaplama ve günlük raporlama.</p>
+          <p class="learn">Proje bağlantısı yakında eklenecek.</p>
         </article>
 
-        <article class="card project" data-category="excel"
-          data-search="excel veri analizi grafik tablo hesaplama">
-          <div class="project-art" role="img" aria-label="Excel projesi">
-            03<small>Excel</small>
-          </div>
+        <article class="card project" data-category="excel" data-search="excel veri analizi">
+          <div class="project-art">03<small>Excel</small></div>
           <h2>Excel Veri Analizi</h2>
-          <p>
-            Tablolar, özet hesaplamalar ve grafikler
-            kullanarak veri analizi çalışması.
-          </p>
-          <p class="learn">
-            <strong>Ne öğrendim?</strong>
-            Veri düzenleme, grafik oluşturma ve
-            sonuçları yorumlama.
-          </p>
-          <span class="link">Proje bağlantısı yakında eklenecek</span>
+          <p>Tablolar, özet hesaplamalar ve grafiklerle veri analizi çalışması.</p>
+          <p class="learn"><strong>Ne öğrendim?</strong> Veri düzenleme, hesaplama ve görselleştirme.</p>
+          <p class="learn">Proje bağlantısı yakında eklenecek.</p>
         </article>
 
-        <article class="card project" data-category="algoritma"
-          data-search="algoritma akış şeması problem çözme">
-          <div class="project-art" role="img" aria-label="Algoritma projesi">
-            04<small>Algoritma</small>
-          </div>
+        <article class="card project" data-category="algoritma" data-search="algoritma akış şeması">
+          <div class="project-art">04<small>Algoritma</small></div>
           <h2>Algoritma ve Akış Şeması</h2>
-          <p>
-            Bir problemi adımlara ayırarak algoritma
-            ve görsel akış şeması oluşturma çalışması.
-          </p>
-          <p class="learn">
-            <strong>Ne öğrendim?</strong>
-            Karar yapıları, işlem sıralaması ve
-            sistematik problem çözme.
-          </p>
-          <span class="link">Proje bağlantısı yakında eklenecek</span>
+          <p>Bir problemi adım adım çözmeye yönelik algoritma ve akış şeması çalışması.</p>
+          <p class="learn"><strong>Ne öğrendim?</strong> Karar yapıları ve algoritmik düşünme.</p>
+          <p class="learn">Proje bağlantısı yakında eklenecek.</p>
         </article>
-
       </div>
 
-      <p id="empty" hidden>
-        Aramanızla eşleşen proje bulunamadı.
-      </p>
+      <p id="empty" hidden>Aramanızla eşleşen proje bulunamadı.</p>
     </section>
   </main>
 
-  <footer>
-    © 2026 Açelya Çayırcı · GEP1316 öğrenci portfolyosu ·
-    Üçüncü taraf izleme betiği kullanılmaz.
-  </footer>
-
+  <footer>© 2026 Açelya Çayırcı · GEP1316 öğrenci portfolyosu</footer>
   <script src="script.js" defer></script>
 </body>
 </html>
